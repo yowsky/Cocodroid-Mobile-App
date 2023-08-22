@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Cocodroid</string>
+    <string name="mainGetStarted"><u>Get Started</u></string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="contact1">Need support?</string>
+    <string name="contact2">Contact Us</string>
+
+    <string name="subtitleCocodroid1">Jagonya</string>
+    <string name="subtitleCocodroid2">Kelapa.</string>
+    <string name="homeBanner1">Produk Kelapa</string>
+    <string name="homeBanner2">Sulawesi Utara</string>
+    <string name="contactTitle1">Kelompok</string>
+    <string name="contactTitle2">Android</string>
+    <string name="data_toko_tidak_ditemukan">Toko tidak ditemukan!</string>
+    <string name="data_produk_tidak_ditemukan">Produk tidak ditemukan!</string>
+    <string name="internetErrorMsg">Pastikan device anda terhubung dengan internet</string>
+    <string name="mendapatkan_data_toko">Mendapatkan toko...</string>
+    <string name="mendapatkan_data_produk">Mendapatkan produk...</string>
+    <string name="refresh"><u>Refresh</u></string>
+    <string name="searchHint">Pencarian Toko Kelapa</string>
+
+</resources>

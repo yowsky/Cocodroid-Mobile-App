@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/produkImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/icon_product"
+        android:maxWidth="100dp"/>
+
+    <LinearLayout
+        android:id="@+id/produkTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/produkImage"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp">
+
+        <TextView
+            android:id="@+id/produkItemNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <TextView
+            android:id="@+id/produkItemHarga"
+            android:layout_gravity=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="20sp"
+            android:textColor="@color/primaryColor"
+            android:fontFamily="@font/montserrat_bold"/>
+    </LinearLayout>
+
+
+    <!--
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_below="@+id/produkImage"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/produkItemDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightgray"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="12sp"
+        android:justificationMode="inter_word"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/lightgray"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="12sp"
+        android:justificationMode="inter_word"
+        android:text="Manfaat:\nAsam urat, rematik, kesemutan, nyeri sendi, syaraf terjepit, leher tegang, pegal linu, keseleo, salah tidur, sakit pinggang, nyeri otot, otot bengkak, otot kejang, nyeri artritis, keram olahraga dll."/>
+
+    <View
+        android:id="@+id/produkItemLineView"
+        android:layout_width="200dp"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    -->
+
+</RelativeLayout>

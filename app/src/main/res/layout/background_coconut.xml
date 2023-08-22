@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/mainCoconut3ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="350dp"
+        android:maxHeight="300dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitEnd"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/coconut_3"
+        android:paddingBottom="10dp"
+        />
+
+</merge>

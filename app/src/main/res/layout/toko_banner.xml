@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/produkBannerImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/toko_bg"
+        />
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignBottom="@+id/produkBannerImageView"
+        android:layout_alignStart="@+id/produkBannerImageView"
+        android:paddingStart="25dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/bannerText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homeBanner1"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:fontFamily="@font/montserrat_extrabold"/>
+
+        <TextView
+            android:id="@+id/bannerText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homeBanner2"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/montserrat_regular"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/produkBannerImageView"
+        android:paddingStart="0dp"
+        android:paddingEnd="25dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon1"
+            android:maxWidth="50dp"
+            android:adjustViewBounds="true"
+            />
+
+    </LinearLayout>
+    -->
+</RelativeLayout>
